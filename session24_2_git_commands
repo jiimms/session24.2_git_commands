@@ -1,0 +1,21 @@
+ Problem Statement:
+  Execute  Git Commands - clone, config, commit, push, status
+
+  Git clone https://github.com/jiimms/session9_10_project_user_details.git
+Cloning into 'session9_10_project_user_details'...
+remote: Counting objects: 1757, done.
+emote: Total 1757 (delta 0), reused 0 (delta 0), pack-reused 1757Receiving objects:  99% (1740/1757), 7Receiving objects: 100% (1757/1757), 7.00 MiB | 66.00 KiB/s, done.
+
+Resolving deltas: 100% (66/66), done.
+Checking connectivity... done.
+Checking out files: 100% (1109/1109), done.
+
+git config : Git comes with a tool called git config that lets you get and set configuration variables that control all aspects of how Git looks and operates. These variables can be stored in three different places:
+
+git config will modify the local config for your current git repo
+
+git commit/push : 
+records changes to the local repository then git push updates remote refs along with associated objects.
+
+git status :
+The git status command shows what's been going on with git add and git commit . Status messages also include relevant instructions for staging/unstaging files.
